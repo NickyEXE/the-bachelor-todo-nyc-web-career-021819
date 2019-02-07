@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
     if season == seas
       keys.each do |key|
         if key["status"] == "winner"
+          binding.pry
           winner = key["name"].split(" ")[0]
         end
       end
