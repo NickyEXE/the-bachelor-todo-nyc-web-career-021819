@@ -19,6 +19,7 @@ def get_contestant_name(data, occupation)
   data.each do |seas, keys|
     keys.each do |key|
       if key["occupation"] == occupation
+        binding.pry
         name = key["name"]
       end
     end
