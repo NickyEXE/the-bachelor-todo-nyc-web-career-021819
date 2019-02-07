@@ -47,7 +47,6 @@ def get_occupation(data, hometown)
     keys.each do |key|
       if key["hometown"] == hometown
         answer.push(key["occupation"])
-        binding.pry
       end
     end
   end
