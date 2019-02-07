@@ -59,5 +59,9 @@ def get_average_age_for_season(data, season)
     if season == seas
       keys.each do |key|
         ages.push (key["age"])
+      end
+    end
+  end
+  ages
   # code here
 end
