@@ -34,6 +34,9 @@ def count_contestants_by_hometown(data, hometown)
     keys.each do |key|
       if key["hometown"] == hometown
         count += 1
+      end
+    end
+  end
 end
 
 def get_occupation(data, hometown)
