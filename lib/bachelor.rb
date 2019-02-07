@@ -66,6 +66,7 @@ def get_average_age_for_season(data, season)
   ages.each do |int|
     agesum += int.to_i
   end
+  binding.pry
   agesum/(ages.length)
   # code here
 end
