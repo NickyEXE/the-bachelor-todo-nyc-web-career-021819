@@ -1,9 +1,10 @@
 require 'pry'
 def get_first_name_of_season_winner(data, season)
   # code here
-  data.each do |seas, key|
-    if season = seas
-    end  
+  data.each do |seas, keys|
+    if season == seas
+      binding.pry
+    end
   end
 end
 
