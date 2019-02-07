@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season)
   # code here
   data.each do |seas, keys|
     if season == seas
-      keys.each do |key, attribute|
+      keys.each do |key|
         binding.pry
       end
     end
