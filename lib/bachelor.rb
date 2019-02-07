@@ -20,6 +20,7 @@ def get_contestant_name(data, occupation)
     binding.pry
     keys.each do |key|
       if key["occupation"] == occupation
+        name = key["name"]
       end
     end
   end
