@@ -32,7 +32,7 @@ def count_contestants_by_hometown(data, hometown)
   count = 0
   data.each do |seas, keys|
     keys.each do |key|
-      if key["hometown"
+      if key["hometown"] == hometown
 end
 
 def get_occupation(data, hometown)
